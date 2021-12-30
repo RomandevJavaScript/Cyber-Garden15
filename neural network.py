@@ -38,3 +38,5 @@ sr_images = super_resolution(pil_images, realesrgan)
 rgba_images, _ = convert_emoji_to_rgba(sr_images, emojich_unet,  device=device)
 for rgba_image in rgba_images:
     show_rgba(rgba_image);
+____________________________________________________________________________
+endln
